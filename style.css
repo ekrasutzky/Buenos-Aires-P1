@@ -1,6 +1,32 @@
-#buenos-aires{
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+ #buenos-aires{
     font-size: 80px;
-    color: #468c9d;
+    color: #000000;
     text-decoration: underline;
     letter-spacing: 3px;
+    font-family: Gloock, serif;
+    text-transform:capitalize
+}
+
+
+
+
+
+footer{
+    height: 200px;
+    background-color: black;
+
+}
+.media{
+    text-align: center;
+}
+.media>li{
+    display: inline;
+    color: #3780ff;
+}
+.media i{
+font-size: 200%;
+margin: 2%;
+padding: 5%;
+color: #3780ff
 }
