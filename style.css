@@ -1,20 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
- #buenos-aires{
-    font-size: 80px;
-    color: #000000;
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
+
+
+    
+    
+#buenos-aires{
+
+    font-size: 70px;
+    color: #4b6eac;
     text-decoration: underline;
-    letter-spacing: 3px;
-    font-family: Gloock, serif;
-    text-transform:capitalize
+    letter-spacing: 5px;
+    font-family: Playfair Display, serif;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: 200;
+    
+
+}
+
+h1,h2,h3{
+    color: #4b6eac;
+    font-family: Playfair Display,sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+
+p{
+    color: #303031;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    
+
 }
 
 
-
-
-
 footer{
-    height: 200px;
-    background-color: black;
+    height: 250px;
+    background-color: #303031;
 
 }
 .media{
@@ -22,11 +45,11 @@ footer{
 }
 .media>li{
     display: inline;
-    color: #3780ff;
+    color: #4b6eac;
 }
 .media i{
 font-size: 200%;
 margin: 2%;
 padding: 5%;
-color: #3780ff
+color: #4b6eac
 }
