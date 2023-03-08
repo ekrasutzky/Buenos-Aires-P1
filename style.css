@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
 
+*{
+    margin: 20  ;
+    padding: 20 ;
+    border: none;}
 
     
     
@@ -13,6 +17,16 @@
     text-transform:uppercase;
     text-align: center;
     font-weight: 200;
+    float: center;
+    margin: 20 35 15 35;
+    
+
+}
+
+h1,h2 {
+    font-size: 50px;
+    color: #4b6eac;
+    font-family: PlayFair Display,serif;
     
 
 }
@@ -34,7 +48,26 @@ p{
 
 }
 
+#menu{
+    display: inline;
+    letter-spacing: 4px;
+    font-size: 100%;
+    color:#4b6eac;
+    line-height: 80px;
+   
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;}
 
+#menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+#menu a:hover {
+        border-bottom: 1px solid;}
 footer{
     height: 250px;
     background-color: #303031;
