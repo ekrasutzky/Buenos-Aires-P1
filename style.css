@@ -6,7 +6,8 @@
     border: none;}
 
     
-    
+/* index styling*/
+
 #buenos-aires{
 
     font-size: 70px;
@@ -33,7 +34,7 @@ h1,h2 {
 
 h1,h2,h3{
     color: #4b6eac;
-    font-family: Playfair Display,sans-serif;
+    font-family: PlayFair Display,serif;
     font-size: 25px;
     font-weight: 200;
     
@@ -41,7 +42,7 @@ h1,h2,h3{
 
 p{
     color: #303031;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: PlayFair Display,serif;
     font-size: 20px;
     font-weight: 200;
     
@@ -85,4 +86,75 @@ font-size: 200%;
 margin: 2%;
 padding: 5%;
 color: #4b6eac
+}
+
+/*city styling*/
+#menu-city{
+    font-family: PlayFair Display,serif;
+    letter-spacing: 2px;
+    color: #303031 ;
+    list-style-type: circle gold;
+
+
+}
+
+h2
+p{
+    font-family: Play Fair Display, sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align:center;
+}
+
+/*culture styling*/
+
+/*food styling*/
+
+/*newsletter styling*/
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.signup-form{
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width:400px;
+    position:absolute; left:10%;
+    padding:30px;
+}
+.signup-form h2{ 
+    color: #fafafa;
+    margin-bottom:20px;
+}
+
+.text-input{
+    background:transparent;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius: 2px;
+}
+.text-input:hover { 
+    border-color:#6b93f1;
+}
+.join-button {
+    
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color: #6b93f1;
+    color:#fafafa;
+    display:block;
+}
+.join-button:hover {
+    background-color:#fafafa;
+    color:#6b93f1;
+
 }
