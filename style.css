@@ -98,6 +98,54 @@ background-position: center;
 
 }
 
+#main-image-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+animation-name: main-zoom;
+animation-duration: 5s;
+animation-fill-mode:backwards;
+
+}
+
+@keyframes main-zoom{
+    from{ 
+        transform: scale(1);
+
+    }
+    to{transform: scale(1.1);
+
+    }
+}
+
+#cover-text, #cover-text h2 {
+    color: rgb(255, 252, 216);
+
+}
+#cover-text h3{
+    color: rgb(255, 252, 216);
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 500px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #3030317e;
+
+    bottom: 40px;
+    right: 50px;
+
+    position: absolute
+}
+
 footer{
     height: 250px;
     background-color: #303031;
