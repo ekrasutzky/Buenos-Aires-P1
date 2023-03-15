@@ -19,7 +19,7 @@ body{
 #buenos-aires{
 
     font-size: 50px;
-    color: #4b6eac;
+    color: #395a94;
     letter-spacing:2px;
     font-family: Playfair Display, serif;
     text-transform:capitalize;
@@ -87,7 +87,7 @@ p{
         border-bottom: 2px solid #2f4872;}
 
 
-    /*menu image*/
+    /*main image*/
 
 #main-image{
 height: 600px;
