@@ -18,16 +18,14 @@ body{
 
 #buenos-aires{
 
-    font-size: 70px;
+    font-size: 50px;
     color: #4b6eac;
-    text-decoration: underline;
-    letter-spacing: 5px;
+    letter-spacing:2px;
     font-family: Playfair Display, serif;
     text-transform:capitalize;
-    text-align: center;
     font-weight: 200;
     float: left;
-    margin: 20 35 15 35;
+    margin-left: 30PX;
     line-height: 75px;
     
 
@@ -56,6 +54,8 @@ p{
     font-family: Lato, sans-serif;
     font-size: 20px;
     font-weight: 200;
+    text-align: center;
+    line-height: 20px;
     text-align: center;
 
     
@@ -126,12 +126,14 @@ animation-fill-mode:backwards;
 #cover-text h3{
     color: rgb(255, 252, 216);
 }
-#cover-text{
+
+#cover-text {
     font-size: 130%;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
+    margin: 0 auto  
 
     width: 500px;
     height: 300px;
@@ -146,11 +148,9 @@ animation-fill-mode:backwards;
     position: absolute
 }
 
-footer{
-    height: 250px;
-    background-color: #303031;
 
-}
+
+
 .media{
     text-align: center;
 }
@@ -163,6 +163,23 @@ font-size: 200%;
 margin: 2%;
 padding: 5%;
 color: #4b6eac
+}
+
+.right-about{
+    padding-top: 40px;
+    width: 45%;
+    float: right;
+    margin-right: 40px;
+   
+}
+
+.left-about{
+    padding-top: 40px;
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+   
+    
 }
 
 /*city styling*/
