@@ -12,6 +12,7 @@ body{
     font-family: Lato, sans-serif;
     font-weight: 200;
     color: #303031 ;
+    
 }
 
         /* headings and image*/
@@ -133,7 +134,7 @@ animation-fill-mode:backwards;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    margin: 0 auto  
+    margin: 0 auto;  
 
     width: 500px;
     height: 300px;
@@ -165,23 +166,43 @@ padding: 5%;
 color: #4b6eac
 }
 
-.right-about{
+#right-about{
     padding-top: 40px;
     width: 45%;
     float: right;
-    margin-right: 40px;
+    
+    
    
 }
 
-.left-about{
+#left-about{
     padding-top: 40px;
     width: 45%;
     float: left;
-    margin-left: 40px;
-   
     
-}
+    }
 
+    .left-about-heading{
+        width: 60%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
+
+    .right-about-heading{
+        width: 60%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+
+    }
+hr{
+    border: 1px solid #395a94;
+    width: 100%;
+    margin: 5px 0;
+}
 /*city styling*/
 #menu-city{
     font-family: PlayFair Display,serif;
@@ -198,6 +219,25 @@ p{
     font-size: 21px;
     letter-spacing: 2px;
     text-align:center;
+}
+
+footer {
+        height: 150px;
+    }
+    
+.social-networks{
+        text-align: center;
+    }
+.social-networks>li {
+        display: inline;
+    }
+    
+.social-networks i{
+        font-size: 150%;
+        margin: 2%;
+        padding: 5%;
+        color:  #4b6eac
+        
 }
 
 /*culture styling*/
