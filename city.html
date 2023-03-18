@@ -6,12 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
+   
 
     <title>Buenos Aires City</title>
 </head>
 <body>
     <header>
-        <h1> <a href="index.html">The City</a> </h1> 
+        <nav>
+            <ul id="menu"> 
+               <li>
+                    <a href="newsletter.html">Newsletter</a> </li>
+                <li>
+                    <a href="culture.html">Culture</a> </li>
+                <li>
+                    <a href="food.html"> Food</a></li>
+                <li>
+                    <a href="city.html">City</a> </li>
+                
+                
+            </ul>
+        </nav>
+        <h1> The City </h1> 
+        
     </header>
 
     <div>
@@ -20,21 +36,36 @@
 <div>
     <nav>
        <ul id="city-menu">
-    <li>Puerto Madero</li>
-    <li>Palermo</li>
-    <li>Corrientes St. </li>
-    <li>Obelisco</li>
-    <li>Recoleta's Cementery</li>
-    <li>San Telmo Market</li>
-    <li>Casa Rosada</li>
-    <li>La Boca </li>
+    <li>
+        <a href="#boca">La Boca</a> 
+    </li>
+    <li>
+       <a href="#casa">Casa Rosada</a> 
+    </li>
+    <li>
+        <a href="#san-tel"> San Telmo Market</a> 
+    </li>
+    <li>
+        <a href="#cementery"></a> Recoleta's Cementery</li>
+    <li>
+        <a href="#obelisc">Obelisco</a> 
+    </li>
+    <li>
+     <a href="#corr-st">Corrientes St.</a>   
+    </li>
+    <li>
+     <a href="#pal">Palermo </a>   
+    </li>
+    <li>
+       <a href="#madero">Puerto Madero</a> 
+    </li>
 </ul> 
     </nav>
 </div>
 
 <div>
 
-<div>
+<div id="madero">
 <h3>Puerto Madero</h3>
 
 <div id="puerto-madero"></div>
@@ -46,7 +77,7 @@ Here, you’ll be able to wander footpaths or ride the bike trails of the park t
 </p>
 </div>
 
-<div>
+<div id="pal">
 <h3>Palermo</h3>
 <div id="palermo"></div>
 <p class="city"> 
@@ -61,7 +92,7 @@ Here, you’ll be able to wander footpaths or ride the bike trails of the park t
 </div>
 
 
-<div>
+<div id="corr-st">
     <h3>Corrientes Av.</h3>
     <div id="corrientes-st"> </div>
 <p class="city">It’s the “street that never sleeps” and you can make your way through the city by wandering down it.
@@ -70,14 +101,14 @@ The bustling Avenida Corrientes passes through Microcentro, the financial distri
     If you don’t want to DIY it, there are walking tours that peruse the surrounding area which start around the National Congress.</p>
 </div>
 
-<div>
+<div id="obelisc">
     <h3>Obelisco</h3>
     <div id="obelisco"></div>
 <p class="city">
 Situated in the intersection of the biggest main avenues of the city, 9 de Julio Av. and Corrientes Av. , there's one of the most famous landmarks of Buenos Aires City. Probably one of the first pictures that comes to your mind when you think you can think about Buenos Aires. A friendly reminding: It gets full of tourists, so keep an eye on your belonging when you get there. </p>
 </div>
 
-<div>
+<div id="cementerio">
     <h3>Recoleta's Cementery</h3>
     <div id="recoleta"> </div>
 <p class="city">This is no ordinary cemetery. It’s a place of rest for the rich, famous, and powerful of Argentina.
@@ -91,7 +122,7 @@ Situated in the intersection of the biggest main avenues of the city, 9 de Julio
 </div>
 
 
-<div>
+<div id="san-tel">
 <h3>San Telmo Market</h3>
 <div id="san-telmo"></div>
 <p class="city">
@@ -102,7 +133,7 @@ Keep an eye on your belongings as you wander the 270 stalls of this local bazaar
 </p>
 </div>
 
-    <div>
+    <div id="casa">
     <h3>Casa Rosada</h3>
     <div id="casa-rosada"></div>
 <p class="city">
@@ -114,7 +145,7 @@ You’ll also find many protests against the British occupation and ownership of
 </p>
 </div>
 
-<div>
+<div id="boca">
 <h3>La Boca</h3>
 <div id="la-boca"></div>
 <p class="city">For those iconic, vibrantly painted buildings and tango dancing in the street, hit up the La Boca neighborhood during the day for great photographs.
@@ -123,9 +154,27 @@ You’ll also find many protests against the British occupation and ownership of
 
 </div>
 </div>
-<footer id="button">
-    <label for="back-home">Back Home</label>
-    <input type="button" value="back-home">
+
+<button onclick="history.back()" >Home</button>
+
+<footer>
+    <footer> 
+    <ul class="social-networks">
+        <li>
+            <a href="http://facebook.com" target="_blank" rel="noopener " aria-label="visit our Facebook page (opens in a new tab)"> <i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="http://twitter.com" target="_blank" rel="noopener " aria-label="visit our Twitter page (opens in a new tab)"> <i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="http://youtube.com" target="_blank" rel="noopener " aria-label="visit our YouTube page (opens in a new tab)"> <i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+            <a href="http://instagram.com" target="_blank" rel="noopener " aria-label="visit our Instagram page (opens in a new tab)"> <i class="fa-brands fa-instagram"></i></a>
+        </li>
+    </ul>
+
+    
 </footer>
 <script src="https://kit.fontawesome.com/a0715f853f.js" crossorigin="anonymous"></script>
 </body>
