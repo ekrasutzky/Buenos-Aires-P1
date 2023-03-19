@@ -362,6 +362,60 @@ footer {
 /*culture styling*/
 
 /*food styling*/
+#donjulio{
+    background-image:url(./images/don-julio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+#hierro{
+    background-image:url(./images/hierro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+#cabrera{
+    background-image:url(./images/cabrera.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+#guerrin{
+    background-image:url(./images/guerrin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+
+}
+#burger{
+    background-image:url(./images/burgerjoint.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+#obrador{background-image:url(./images/obrador.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+#tufic{
+    background-image:url(./images/tufic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
 
 /*newsletter styling*/
 .form-section {
@@ -412,3 +466,71 @@ footer {
 
 }
 
+/*for larger to medium screen size from 1200px wide and down*/
+
+@media screen and (max-width:1200px){
+
+  
+    #activities{
+     width: 65%;
+     height: 1200px;
+     margin: 0 auto;
+ 
+  }
+ 
+  #welcome{
+     padding: 30px;
+     margin:0 ;
+  }
+  #left-about, #right-about {
+     width: 100%;
+     float: left;
+     padding: 0;
+ 
+  }
+ 
+ 
+ 
+ 
+ hr{
+     display: none;
+ }
+ }
+ 
+ /*for medium screen sizes form 950px wide and down*/
+ 
+ @media screen and (max-width:950px){
+     #menu{  
+         clear:left;
+         float: left;
+         margin-left: 30px;
+         margin-bottom: 20px;
+         line-height: 25px;
+ 
+     }
+     #cover-text{
+         left: 0;
+     }
+     #activities{
+         width: 90%;
+         height: 1200px;
+         margin: 0 auto;
+         
+     }
+     .left-about-heading,.right-about-heading{
+         width: inherit;
+     }
+     .left-about-heading h2, .right-about-heading h2{
+         width: 100%;
+         text-align: center;
+     }
+ 
+     .left-about-heading p, .right-about-heading p{
+         text-align: center;
+         padding: 0 20px;
+     }
+ 
+    
+ }
+ 
+ 
