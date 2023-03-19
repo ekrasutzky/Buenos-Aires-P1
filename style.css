@@ -28,9 +28,8 @@ body{
     float: left;
     margin-left: 30PX;
     line-height: 75px;
-    
+    }
 
-}
 
 h1, h2 {
     font-size: 50px;
@@ -38,15 +37,19 @@ h1, h2 {
     font-family: PlayFair Display,serif;
     font-weight: 200;
     letter-spacing: 3px;
+    text-align: center;
 
 }
 
 h3{
-    color: #4b6eac;
+    color: #354f7c;
     font-family: PlayFair Display,serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
+    text-decoration: underline;
+    border-bottom: 2px solid #6da0ff 100%;
+    
     
     
 }
@@ -57,8 +60,10 @@ p{
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    line-height: 20px;
-    text-align: center;
+    line-height: 24px;
+    padding-top: 40px;
+    margin: 10px 60px 20px;
+
 
     
 
@@ -360,7 +365,41 @@ footer {
 }
 
 /*culture styling*/
-
+#colon{
+    background-image:url(./images/colon.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width:100%;
+}
+#malba{
+    background-image:url(./images/malba.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width:100%;
+}
+#nacional{
+    background-image:url(./images/nacional.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width:100%;
+}
+#ateneo{
+    background-image:url(./images/ateneo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width:100%;
+}
+#tango{
+    background-image:url(./images/b9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width:100%;
+}
 /*food styling*/
 #donjulio{
     background-image:url(./images/don-julio.jpg);
