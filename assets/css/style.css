@@ -525,12 +525,13 @@ footer {
 /*newsletter styling*/
 
 #nform {
-    background-image: url(../images/newsletter/nform1.jpg);
+    background-image: url(../images/newsletter/bsas.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
     background-color: #30303115;
     background-repeat: no-repeat;
+    
 }
 
 .form-section {
@@ -543,7 +544,7 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #f8ff6d;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.712);
     max-width: 400px;
     position: absolute;
     left: 10%;
