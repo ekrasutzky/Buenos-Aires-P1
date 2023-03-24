@@ -50,7 +50,7 @@ h2 {
     font-size: 40px;
     color: #34548c;
     font-family: PlayFair Display, serif;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
     text-align: center;
 
@@ -60,7 +60,7 @@ h3 {
     color: #354f7c;
     font-family: PlayFair Display, serif;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
 
 
@@ -149,7 +149,7 @@ p {
 #cover-text,
 #cover-text h2 {
     color: rgb(255, 252, 216);
-    font-family: Lato, sans-serif;
+    font-family: PlayFair Display, sans-serif;
     font-size: 60px;
     text-align: center;
 
@@ -204,12 +204,14 @@ p {
     color: #4b6eac
 }
 
+#activities {
+    height: 600px;
+}
+
 #right-about {
     padding-top: 40px;
     width: 45%;
     float: right;
-
-
 
 }
 
@@ -217,7 +219,7 @@ p {
     padding-top: 40px;
     width: 45%;
     float: left;
-
+    
 }
 
 .left-about-heading {
@@ -225,17 +227,18 @@ p {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
-}
+    margin-bottom: 40px;
+    }
 
 .right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
+
 
 hr {
     border: 1px solid #395a94;
