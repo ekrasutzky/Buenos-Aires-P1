@@ -34,6 +34,9 @@ body {
     line-height: 75px;
 }
 
+span{
+    background-color: #f8ff6d;
+}
 
 
 h1 {
@@ -53,6 +56,7 @@ h2 {
     font-weight: 300;
     letter-spacing: 3px;
     text-align: center;
+
 
 }
 
@@ -152,6 +156,7 @@ p {
     font-family: PlayFair Display, sans-serif;
     font-size: 60px;
     text-align: center;
+    text-decoration: none;
 
 }
 
@@ -544,7 +549,7 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #f8ff6d;
-    background-color: rgba(60, 60, 60, 0.712);
+    background-color: rgba(60, 60, 60, 0.815);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -554,6 +559,7 @@ footer {
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .text-input {
