@@ -5,6 +5,29 @@
     padding: 20;
     border: none;
 }
+/* hamburguer menu*/
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+:root{
+    --bar-width:60px;
+    --bar-height:8px;
+    --hamburguer-gap:6px;
+    --foreground:#395a94;
+    --background:#f8ff6d;
+}
+.hamburguer-menu: ::before
+.hamburguer-menu: ::after
+.hamburguer-menu input {
+    content:"";
+    width: var(--bar-width)
+    height: var(--bar-height)
+    background-color:var(--foreground)
+}
+
 
 
 /* index styling*/
@@ -172,7 +195,7 @@ p {
 #cover-text {
     font-size: 130%;
     font-family: Lato, sans-serif;
-    text-transform: uppercase;
+    
     letter-spacing: 4px;
     text-align: center;
     margin: 0 auto;
