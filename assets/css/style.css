@@ -1,63 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@300&family=Oswald:wght@300&family=Playfair+Display&display=swap');
 
-* {
-    margin: 20;
-    padding: 20;
-    border: none;
-}
-/* hamburguer menu*/
-*,
-*::after,
-*::before{
-    box-sizing: border-box;
-}
 
-:root{
-    --bar-width:60px;
-    --bar-height:8px;
-    --hamburguer-gap:6px;
-    --foreground:#395a94;
-    --background:#f8ff6d;
-}
-.hamburguer-menu: ::before
-.hamburguer-menu: ::after
-.hamburguer-menu input {
-    content:"";
-    width: var(--bar-width)
-    height: var(--bar-height)
-    background-color:var(--foreground)
+
+/* Nav bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #395a94;
+    padding: 10px 20px;
+    font-size: 130%;
 }
 
-
-
-/* index styling*/
-
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 200;
-    color: #303031;
-
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
+.menu li {
+    margin: 0 10px;
+}
 
+.menu a {
+    color: #395a94;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.menu a:hover {
+    background-color: #f8ff6d;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+label[for="menu-toggle"] {
+    font-size: 45px;
+    cursor: pointer;
+    display: none;
+}
 
 /* headings and image*/
 
-#buenos-aires {
-
+.logo {
     font-size: 50px;
-    color: #395a94;
-    letter-spacing: 2px;
-    font-family: Playfair Display, serif;
-    text-transform: capitalize;
-    font-weight: 200;
-    float: left;
-    margin-left: 30PX;
-    line-height: 75px;
+    font-weight: bold;
+    font-family: PlayFair Display, sans-serif;
 }
 
-span{
+span {
     background-color: #f8ff6d;
 }
 
@@ -110,33 +108,7 @@ p {
 }
 
 
-#menu {
-    display: inline;
-    letter-spacing: 2px;
-    font-size: 130%;
-    color: #4b6eac;
-    line-height: 75px;
-    font-family: PlayFair Display, sans-serif;
-    font-weight: 400;
-    margin-top: 70px;
-    padding-top: 60px;
 
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #2f4872;
-}
 
 
 /*main image*/
@@ -195,7 +167,7 @@ p {
 #cover-text {
     font-size: 130%;
     font-family: Lato, sans-serif;
-    
+
     letter-spacing: 4px;
     text-align: center;
     margin: 0 auto;
@@ -247,7 +219,7 @@ p {
     padding-top: 40px;
     width: 45%;
     float: left;
-    
+
 }
 
 .left-about-heading {
@@ -256,7 +228,7 @@ p {
     line-height: 20px;
     clear: both;
     margin-bottom: 40px;
-    }
+}
 
 .right-about-heading {
     width: 60%;
@@ -278,14 +250,10 @@ hr {
 
 
 
-#menu-city {
-    font-family: PlayFair Display, serif;
-    letter-spacing: 2px;
-    color: #303031;
-    list-style-type: circle gold;
 
 
-}
+
+
 
 p {
     font-family: Lato, sans-serif;
@@ -559,7 +527,7 @@ footer {
     height: 900px;
     background-color: #30303115;
     background-repeat: no-repeat;
-    
+
 }
 
 .form-section {
@@ -691,4 +659,26 @@ footer {
     }
 
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    #menu-toggle:checked~.menu {
+        display: flex;
+    }
+
+    label[for="menu-toggle"] {
+        display: block;
+    }
 }
