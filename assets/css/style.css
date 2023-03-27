@@ -208,52 +208,25 @@ p {
     height: 600px;
 }
 
-#right-about {
-    padding-top: 40px;
-    width: 45%;
-    float: right;
-
-}
-
-#left-about {
-    padding-top: 40px;
-    width: 45%;
-    float: left;
-
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 40px;
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 40px;
-
-}
-
-
 hr {
     border: 1px solid #395a94;
     width: 100%;
     margin: 5px 0;
 }
 
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-inner-container div {
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+
+}
+
 /*city styling*/
-
-
-
-
-
-
-
 
 p {
     font-family: Lato, sans-serif;
