@@ -388,6 +388,8 @@ footer {
 }
 
 /*culture styling*/
+
+
 #colon {
     background-image: url(../images/cultural/colon.webp);
     background-repeat: no-repeat;
@@ -575,13 +577,7 @@ footer {
         margin: 0;
     }
 
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-
-    }
+    
 
 
 
@@ -614,23 +610,7 @@ footer {
 
     }
 
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
+    
 
 }
 
@@ -654,4 +634,6 @@ footer {
     label[for="menu-toggle"] {
         display: block;
     }
+
+   
 }
