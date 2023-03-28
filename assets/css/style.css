@@ -617,7 +617,7 @@ footer {
 
 }
 
-/*for small screen sizes from 768px and down*/
+/*for medium screen sizes from 768px and down*/
 
 @media screen and (max-width:768px) {
     .menu {
@@ -662,8 +662,8 @@ footer {
         letter-spacing: 4px;
         text-align: center;
         margin: 0 auto;
-        width: min-content;
-        height: 350px;
+        width: 50%;
+        height: 450px;
         padding-top: 40px;
         padding-left: 10px;
         background-color: #212122be;
@@ -733,7 +733,7 @@ footer {
         letter-spacing: 4px;
         text-align: center;
         margin: 0 auto;
-        width: max-content;
+        width: min-content;
         height: max-content;
         padding-top: 40px;
         padding-left: 10px;
