@@ -662,14 +662,15 @@ footer {
         letter-spacing: 4px;
         text-align: center;
         margin: 0 auto;
-        width: min-content;
+        width: 70vw;
         height: 450px;
         padding-top: 40px;
         padding-left: 10px;
         background-color: #212122be;
         bottom: 50px;
         right: 50px;
-        position: absolute;
+        position:absolute;
+        
     }
 
     #cover-text,
