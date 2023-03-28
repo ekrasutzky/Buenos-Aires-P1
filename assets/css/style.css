@@ -571,6 +571,10 @@ footer {
         margin: 0 auto;
 
     }
+    #cover-text{
+        height: 35vw;
+        width: max-content;
+    }
 
 
     hr {
@@ -655,7 +659,7 @@ footer {
         letter-spacing: 4px;
         text-align: center;
         margin: 0 auto;
-        width: 50%;
+        width: min-content;
         height: 350px;
         padding-top: 40px;
         padding-left: 10px;
@@ -704,10 +708,6 @@ footer {
         display: block;
     }
 
-
-
-
-
     section {
         display: unset;
     }
@@ -727,19 +727,21 @@ footer {
     }
 
     #cover-text {
-        width: min-content;
-        height: min-content;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 0 auto;
+        width: max-content;
+        height: max-content;
         padding-top: 40px;
         padding-left: 10px;
-        bottom: 140px;
-        right: 50px;
-        position: absolute;
-        left: 10px;
         background-color: #212122be;
-    }
+        bottom: 50px;
+        right: 50px;
+        position: absolute;}
 
     #cover-text h2 {
         font-size: 35px;
+        
     }
 
     #cover-text h3 {
