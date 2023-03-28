@@ -572,15 +572,6 @@ footer {
 
     }
 
-    #welcome {
-        padding: 30px;
-        margin: 0;
-    }
-
-    
-
-
-
 
     hr {
         display: none;
@@ -609,11 +600,15 @@ footer {
         margin: 0 auto;
 
     }
-
     
+  p, h2{
+    font-size:large;
+  }
+        
 
 }
 
+/*for small screen sizes from 768px and down*/
 
 @media screen and (max-width: 768px) {
     .menu {
@@ -634,6 +629,47 @@ footer {
     label[for="menu-toggle"] {
         display: block;
     }
+    
 
-   
-}
+
+  
+
+    section{
+        display: unset;
+    }
+   .div-inner-container div {
+        width: 100%;
+        margin: 10px auto;
+        border: 1px solid #ffffff;
+        padding: 10px;
+        
+     }
+     
+    #main-image{
+        display: block;
+        float: center;
+        width: 100%;
+    }
+    #cover-text{
+        width: min-content;
+        height: min-content;
+        padding-top: 40px;
+        padding-left: 10px;
+        background-color: #3030317e;
+        bottom: 140px;
+        right: 50px;
+        position: absolute;
+        left: 10px;
+        background-color: #212122be;
+    }
+
+    #cover-text h2{
+        font-size:35px ;
+    }
+    #cover-text h3{
+        font-size: 30px;
+    }
+    .logo{
+        font-size:40px;
+    }
+   }
