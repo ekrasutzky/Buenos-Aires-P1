@@ -567,6 +567,7 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
+        
 
     }
 
@@ -636,10 +637,6 @@ footer {
     }
 
 
-    section {
-        display: unset;
-    }
-
     .div-inner-container div {
         width: 100%;
         margin: 10px auto;
@@ -683,5 +680,9 @@ footer {
 
     .logo {
         font-size: 40px;
-    }
+ 
+   }
+   #activities{
+    display: unset;
+   }
 }
