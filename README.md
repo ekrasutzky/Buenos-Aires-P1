@@ -17,7 +17,7 @@ The same navigation bar is displayed in every page letting the user navigate thr
 
 ![head and nav](./assets/images-readme/head.png)
 
-        ♥ In smaller screen sizes a hamburger menu has been added for an esier navigation.
+### ♥ In smaller screen sizes a hamburger menu has been added for an esier navigation.
 ![hamburger menu](./assets/images-readme/hamburguer.png)
 
 
@@ -27,7 +27,8 @@ The same navigation bar is displayed in every page letting the user navigate thr
 
 - This image and all around it was decided to be like that in order to catch users' eye and produce an impact on them with all the colors from the image and a welcoming text. 
 
-        ♥ The color scheme has been chosen and applied through the whole website on purpose, since blue, white and yellow are Argentina's flag colors.
+ ## ♥ Color Scheme
+ - The color scheme has been chosen and applied through the whole website on purpose, since blue, white and yellow are Argentina's flag colors.
 ![main image](./assets/images-readme/first-view.png)
 
 ## ♥ Activities section
