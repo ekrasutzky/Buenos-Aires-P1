@@ -84,7 +84,7 @@ The live link can be found here : https://ekrasutzky.github.io/Buenos-Aires-P1/
 
 ## ♥ Credits
 
-1. Pictures and text got it from: 
+1. Pictures and text have been taken from: 
 -  [Nomadic Foodie](https://nomadicfoodist.com/best-restaurants-in-buenos-aires/)
 -  [Secrets of Buenos Aires](https://secretsofbuenosaires.com/things-to-do-in-buenos-aires/)
 -  [Condé Nast Traveler](https://www.cntraveler.com/gallery/best-museums-to-visit-in-buenos-aires)
