@@ -47,7 +47,7 @@ The same navigation bar is displayed in every page letting the user navigate thr
 ![newsletter](./assets/images-readme/newsletter.png)
 
 ### Features Left to Implement
- - A textarea in the Newsletter section so the user can ask for specific info.
+ 
  - Maps in the Food, Citty and Culture pages.
 
  ## ♥ Validator Testing
