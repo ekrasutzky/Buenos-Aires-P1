@@ -54,22 +54,39 @@ The same navigation bar is displayed in every page letting the user navigate thr
  ## ♥ Validator Testing
 - HTML:
 No errors were returned when passing through the official W3C validator
-![html validator](./assets/images-readme/html%20validator.png)
 
 - CSS :
 No errors were found when passing through the official (Jigsaw) validator
-![css validator](./assets/images-readme/css%20validator.png)
-
 
 - Lighthouse:
 I ran a test on Lighthouse to check the accesibility and performance  of the website
 
-![lighthouse](./assets/images-readme/lighthouse.png)
+![lighthouse](./assets/images-readme/lighthousescreen.png)
 
+## ♥ Technologies Used
+Main Languages Used
+- HTML5
+- CSS3
+## ♥ Frameworks, Libraries & Programs Used
+Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
+Font Awesome - to add icons to the social links in the footer element.
+GitPod - to creat my html files & styling sheet before pushing the project to Github.
+GitHub - to store my repository for submission.
+Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
+Am I Responsive? - to ensure the project looked good across all devices.
 ## ♥ Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-1. In the GitHub repository, navigate to the Settings tab
+1. In the GitHub repository, navigate to the Settings tabgit
 From the source section drop-down menu, select the Master Branch
 2. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here : https://ekrasutzky.github.io/Buenos-Aires-P1/
+
+## ♥ Credits
+
+1. Pictures and text got it from: 
+-  [Nomadic Foodie](https://nomadicfoodist.com/best-restaurants-in-buenos-aires/)
+-  [Secrets of Buenos Aires](https://secretsofbuenosaires.com/things-to-do-in-buenos-aires/)
+-  [Condé Nast Traveler](https://www.cntraveler.com/gallery/best-museums-to-visit-in-buenos-aires)
+-  [Culture Trip](https://theculturetrip.com/south-america/argentina/articles/15-must-visit-attractions-in-buenos-aires/)
+
