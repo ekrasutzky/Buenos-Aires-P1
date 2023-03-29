@@ -17,7 +17,7 @@ The same navigation bar is displayed in every page letting the user navigate thr
 
 ![head and nav](./assets/images-readme/head.png)
 
-### ♥ In smaller screen sizes a hamburger menu has been added for an esier navigation.
+##### ♥ In smaller screen sizes a hamburger menu has been added for an esier navigation.
 ![hamburger menu](./assets/images-readme/hamburguer.png)
 
 
