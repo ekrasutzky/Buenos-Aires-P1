@@ -69,7 +69,7 @@ I ran a test on Lighthouse to check the accesibility and performance  of the web
 Main Languages Used
 - HTML5
 - CSS3
-## ♥ Frameworks, Libraries & Programs Used
+## ♥ Frameworks, Libraries and Programs Used
 Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
 Font Awesome - to add icons to the social links in the footer element.
 GitPod - to creat my html files & styling sheet before pushing the project to Github.
