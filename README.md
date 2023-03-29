@@ -44,7 +44,8 @@ The same navigation bar is displayed in every page letting the user navigate thr
 
 ## ♥ Newsletter section
 - This page will allow the user to get signed up to Buenos Aires website. The user will be able to get more info about activities in this City by submitting  their full name and email address.
-![newsletter](./assets/images-readme/newsletter.png)
+![newsletter](./assets/images-readme/news.png)
+
 
 ### Features Left to Implement
  
