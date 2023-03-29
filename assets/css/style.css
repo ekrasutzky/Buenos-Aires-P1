@@ -665,6 +665,7 @@ footer {
         bottom: 50px;
         right: 50px;
         position: absolute;
+        visibility: hidden;
 
     }
 
