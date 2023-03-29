@@ -70,12 +70,12 @@ Main Languages Used
 - HTML5
 - CSS3
 ## ♥ Frameworks, Libraries and Programs Used
-Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
-Font Awesome - to add icons to the social links in the footer element.
-GitPod - to creat my html files & styling sheet before pushing the project to Github.
-GitHub - to store my repository for submission.
-Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
-Am I Responsive? - to ensure the project looked good across all devices.
+- Google Fonts - for the font families: PlayFair Display and Lato.  San-serif was used as a default font.
+- Font Awesome - to add icons to the social links in the footer element.
+- GitPod - to creat my html files and styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- 
 ## ♥ Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 1. In the GitHub repository, navigate to the Settings tabgit
