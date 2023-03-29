@@ -59,7 +59,6 @@ span {
     background-color: #f8ff6d;
 }
 
-
 h1 {
     font-size: 50px;
     color: #4b6eac;
@@ -67,7 +66,6 @@ h1 {
     font-weight: 200;
     letter-spacing: 3px;
     text-align: center;
-
 }
 
 h2 {
@@ -77,8 +75,6 @@ h2 {
     font-weight: 300;
     letter-spacing: 3px;
     text-align: center;
-
-
 }
 
 h3 {
@@ -87,10 +83,6 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-
-
-
-
 }
 
 p {
@@ -101,18 +93,12 @@ p {
     text-align: center;
     line-height: 24px;
     margin: 10px 50px 20px;
-
-
-
-
 }
 
 .active {
     border-bottom: 1px solid #354f7c;
 
 }
-
-
 
 /*main image*/
 
@@ -163,33 +149,23 @@ p {
     font-family: Lato, sans-serif;
     font-size: 40px;
     text-align: center;
-
-
 }
 
 #cover-text {
     font-size: 130%;
     font-family: Lato, sans-serif;
-
     letter-spacing: 4px;
     text-align: center;
     margin: 0 auto;
-
     width: 50%;
     height: 450px;
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: #21212292;
-
     bottom: 50px;
     right: 50px;
-
     position: absolute
 }
-
-
-
 
 .media {
     text-align: center;
@@ -255,8 +231,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
-
 }
 
 #corrientes-st {
@@ -265,8 +239,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
-
 }
 
 #obelisco {
@@ -275,7 +247,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #recoleta {
@@ -284,7 +255,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #san-telmo {
@@ -302,7 +272,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #la-boca {
@@ -311,8 +280,6 @@ p {
     background-position: center;
     height: 400px;
     width: 100%;
-
-
 }
 
 .city {
@@ -333,7 +300,6 @@ p {
     line-height: 75px;
     font-family: PlayFair Display, sans-serif;
     font-weight: 400;
-
 }
 
 #city-menu li {
@@ -421,7 +387,6 @@ footer {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #hierro {
@@ -430,7 +395,6 @@ footer {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #cabrera {
@@ -439,7 +403,6 @@ footer {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #guerrin {
@@ -448,7 +411,6 @@ footer {
     background-position: center;
     height: 550px;
     width: 100%;
-
 }
 
 #burger {
@@ -457,7 +419,6 @@ footer {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 #obrador {
@@ -474,7 +435,6 @@ footer {
     background-position: center;
     height: 400px;
     width: 100%;
-
 }
 
 /*newsletter styling*/
@@ -486,7 +446,6 @@ footer {
     height: 900px;
     background-color: #30303115;
     background-repeat: no-repeat;
-
 }
 
 .form-section {
@@ -495,6 +454,7 @@ footer {
     background-position: center;
     height: 900px;
 }
+
 #textarea{
     background: white;
     color: #303031;
@@ -503,7 +463,6 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-
 }
 
 .signup-form {
@@ -515,9 +474,7 @@ footer {
     left: 10%;
     padding: 30px;
     font-family: Lato, sans-serif;
-
 }
-
 
 .signup-form h2 {
     color: #fafafa;
@@ -538,7 +495,6 @@ footer {
 .text-input:hover {
     border-color: #6b93f1;
 }
-
 
 .join-button {
 
@@ -567,15 +523,12 @@ footer {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-        
-
     }
 
     #cover-text {
         height: 35vw;
         width: max-content;
     }
-
 
     hr {
         display: none;
@@ -591,7 +544,6 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-
     }
 
     #cover-text {
@@ -603,15 +555,12 @@ footer {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
-
     }
 
     p,
     h2 {
         font-size: large;
     }
-
-
 }
 
 /*for medium screen sizes from 768px and down*/
@@ -636,13 +585,11 @@ footer {
         display: block;
     }
 
-
     .div-inner-container div {
         width: 100%;
         margin: 10px auto;
         border: 1px solid #ffffff;
         padding: 10px;
-
     }
 
     #main-image {
@@ -663,7 +610,6 @@ footer {
         right: 50px;
         position: absolute;
         visibility: hidden;
-
     }
 
     #cover-text,
